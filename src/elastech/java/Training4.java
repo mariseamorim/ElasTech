@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Training4 {
 
-    public void informeValorDoImposto(int salario) {
+    public int salario;
 
+    public void informeValorDoImposto() {
         System.out.println((salario > 5000) ? "15" : "5");
-
     }
 
     public static void main(String[] args) {
@@ -16,9 +16,9 @@ public class Training4 {
         System.out.print("Digite o valor do Salario Minimo:");
         salario = teclado.nextInt();
 
-        Training4 c = new Training4();
-        c.informeValorDoImposto(salario);
-
+        Training4 valor = new Training4();
+        valor.salario = salario;
+        valor.informeValorDoImposto();
 
     }
 }

@@ -3,8 +3,11 @@ package elastech.java;
 import java.util.Scanner;
 
 public class Training2 {
+    //atributo
+    public int hora;
 
-    public void verificaPeriodo(int hora) {
+    //Método
+    public void verificaPeriodo() {
         if (hora >= 0 && hora <= 5) {
             System.out.println("Madrugada");
         } else if (hora > 5 && hora < 12) {
@@ -22,8 +25,9 @@ public class Training2 {
         System.out.print("Digite a hora:");
         hora = teclado.nextInt();
 
-        Training2 c = new Training2();
-        c.verificaPeriodo(hora);
+        Training2 periodo = new Training2();
+        periodo.hora = hora;
+        periodo.verificaPeriodo();
 
 
     }

@@ -3,12 +3,15 @@ package elastech.java;
 import java.util.Scanner;
 
 public class Training1 {
+    //Atributo
+    public int salario;
 
-    public void informeValorDoImposto(int salario) {
+    //Método
+    public void informeValorDoImposto() {
         if (salario > 5000) {
-            System.out.println("15");
+            System.out.println(15);
         } else {
-            System.out.println("5");
+            System.out.println(5);
         }
     }
 
@@ -18,8 +21,9 @@ public class Training1 {
         System.out.print("Digite o valor do Salario Minimo:");
         salario = teclado.nextInt();
 
-        Training1 c = new Training1();
-        c.informeValorDoImposto(salario);
+        Training1 valor = new Training1();
+        valor.salario = salario;
+        valor.informeValorDoImposto();
 
 
     }

@@ -4,7 +4,10 @@ import java.util.Scanner;
 
 public class Training3 {
 
-    public void escreverMesExtenso(int mes) {
+    //atributo
+    public int mes;
+    //metodo
+    public void escreverMesExtenso() {
         switch (mes) {
             case 1:
                 System.out.println("Janeiro");
@@ -24,6 +27,24 @@ public class Training3 {
             case 6:
                 System.out.println("Junho");
                 break;
+            case 7:
+                System.out.println("Julho");
+                break;
+            case 8:
+                System.out.println("Agosto");
+                break;
+            case 9:
+                System.out.println("Setembro");
+                break;
+            case 10:
+                System.out.println("Outubro");
+                break;
+            case 11:
+                System.out.println("Novembro");
+                break;
+            case 12:
+                System.out.println("Dezembro");
+                break;
             default:
                 System.out.println("Mês inválido");
                 break;
@@ -36,8 +57,9 @@ public class Training3 {
         System.out.print("Informe o mes:");
         mes = teclado.nextInt();
 
-        Training3 c = new Training3();
-        c.escreverMesExtenso(mes);
+        Training3 periodo = new Training3();
+        periodo.mes = mes;
+        periodo.escreverMesExtenso();
 
 
     }
