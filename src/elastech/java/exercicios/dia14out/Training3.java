@@ -61,7 +61,7 @@ public class Training3 {
         periodo.mes = mes;
         periodo.escreverMesExtenso();
 
-
+        teclado.close();
     }
 }
 

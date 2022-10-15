@@ -29,6 +29,7 @@ public class Training2 {
         periodo.hora = hora;
         periodo.verificaPeriodo();
 
+        teclado.close();
 
     }
 }

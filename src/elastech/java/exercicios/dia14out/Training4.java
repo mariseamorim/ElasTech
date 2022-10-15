@@ -10,6 +10,8 @@ public class Training4 {
         return (salario > 5000) ? 15 : 5;
     }
 
+
+
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         int salario;
@@ -20,6 +22,7 @@ public class Training4 {
         valor.salario = salario;
         System.out.println(valor.informeValorDoImposto());
 
+        teclado.close();
 
     }
 }
