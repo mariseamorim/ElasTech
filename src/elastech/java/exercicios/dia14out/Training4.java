@@ -6,8 +6,8 @@ public class Training4 {
 
     public int salario;
 
-    public void informeValorDoImposto() {
-        System.out.println((salario > 5000) ? 15 : 5);
+    public int informeValorDoImposto() {
+        return (salario > 5000) ? 15 : 5;
     }
 
     public static void main(String[] args) {
@@ -18,7 +18,8 @@ public class Training4 {
 
         Training4 valor = new Training4();
         valor.salario = salario;
-        valor.informeValorDoImposto();
+        System.out.println(valor.informeValorDoImposto());
+
 
     }
 }

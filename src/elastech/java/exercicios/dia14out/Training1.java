@@ -7,11 +7,11 @@ public class Training1 {
     public int salario;
 
     //Método
-    public void informeValorDoImposto() {
+    public int informeValorDoImposto() {
         if (salario > 5000) {
-            System.out.println(15);
+            return 15;
         } else {
-            System.out.println(5);
+            return 5;
         }
     }
 
@@ -23,8 +23,7 @@ public class Training1 {
 
         Training1 valor = new Training1();
         valor.salario = salario;
-        valor.informeValorDoImposto();
-
+        System.out.print(valor.informeValorDoImposto());
 
     }
 }
