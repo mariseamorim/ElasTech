@@ -1,4 +1,4 @@
-package elastech.java.exercicios.dia14out;
+package elastech.java.fundamentosexercicios.dia14out;
 
 import java.util.Scanner;
 
