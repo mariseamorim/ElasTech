@@ -1,4 +1,4 @@
-package elastech.java.exercicioslooparray.dia26out;
+package elastech.java.exercicios.looparray.dia26out;
 
 //Exercício 4 -Crie uma classe chamada MultiplosDeQuatro. Crie um método que imprima apenas os números múltiplos de 4 (aqueles que, quando divididos por 4, resultam em 0 no resto).
 public class MultiplosDeQuatro {

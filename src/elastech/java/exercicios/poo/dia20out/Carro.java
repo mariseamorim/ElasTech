@@ -1,9 +1,4 @@
-package elastech.java.exerciciospoo.dia20out;
-
-import elastech.java.fundamentosexercicios.dia14out.Training2;
-import org.w3c.dom.ls.LSOutput;
-
-import java.util.Scanner;
+package elastech.java.exercicios.poo.dia20out;
 
 public class Carro {
     private int numPortas;

@@ -1,4 +1,4 @@
-package elastech.java.exercicioslooparray.dia19out;
+package elastech.java.exercicios.looparray.dia19out;
 
 public class ExercicioLoop {
 

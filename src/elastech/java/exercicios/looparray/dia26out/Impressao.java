@@ -1,4 +1,4 @@
-package elastech.java.exercicioslooparray.dia26out;
+package elastech.java.exercicios.looparray.dia26out;
 
 public class Impressao {
 

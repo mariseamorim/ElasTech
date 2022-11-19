@@ -1,4 +1,4 @@
-package elastech.java.estrurarepeticao.dia18out;
+package elastech.java.exercicios.estrurarepeticao.dia18out;
 
 public class ListaImpares {
     public void listar(){

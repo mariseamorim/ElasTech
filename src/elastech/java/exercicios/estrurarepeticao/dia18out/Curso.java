@@ -1,8 +1,4 @@
-package elastech.java.estrurarepeticao.dia18out;
-
-import elastech.java.fundamentosexercicios.dia14out.Training4;
-
-import java.util.Scanner;
+package elastech.java.exercicios.estrurarepeticao.dia18out;
 
 public class Curso {
 

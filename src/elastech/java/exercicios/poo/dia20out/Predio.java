@@ -1,4 +1,4 @@
-package elastech.java.exerciciospoo.dia20out;
+package elastech.java.exercicios.poo.dia20out;
 
 public class Predio {
     private  String endereco;
